@@ -5,6 +5,7 @@ Custom QMK keymaps for several keyboards
 ## Implemented keymaps
 
 - acheron/apollo/87h/delta/keymaps/indicator [README](delta/keymaps/indicator/README.md)
+- massdrop/thekey_v2/keymaps/per-key-rgb [README](thekey_v2/keymaps/per-key-rgb/README.md)
 
 ## How to build custom firmware
 
@@ -13,4 +14,11 @@ Custom QMK keymaps for several keyboards
 ```bash
 cp -r delta $QMK_FIRMWARE_ROOT/keyboards/acheron/apollo/87h
 qmk compile -j 0 -kb acheron/apollo/87h/delta -km indicator
+```
+
+### The Key v2 Per-key RGB
+
+```bash
+cp -r thekey_v2 $QMK_FIRMWARE_ROOT/keyboards/massdrop
+qmk compile -j 0 -kb massdrop/thekey_v2 -km perkey-rgb
 ```
