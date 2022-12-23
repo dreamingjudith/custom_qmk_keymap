@@ -3,6 +3,7 @@
 ## Features
 
 - White LED works as indicator in caps/scroll lock
+- Any other LED is turned off
 
 ## Troubleshooting
 
